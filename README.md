@@ -1,2 +1,2 @@
-# BasicsProjects
+# Basics Projects
  Basic learning projects

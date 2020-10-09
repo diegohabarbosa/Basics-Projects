@@ -31,3 +31,19 @@ __*Lista demarcada:*__
 - [ ] Criar um teste
 - [ ] Teste
 
+**Teste de links:**
+
+[Acesse o GitHub Octodex](https://octodex.github.com/)
+
+### Testando Tabelas:
+
+Nome | Idade | Sexo 
+---|---|---
+Teste | 100 | Teste
+Teste2 | 1 | Teste
+
+#### Testando Programas:
+Olha o meu programa em __*Python*__
+'''
+num = int(input('Digite um valor:'))
+'''

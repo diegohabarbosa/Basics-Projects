@@ -51,3 +51,7 @@ if num % 2 == 0:
 else:
  print(f'O valor {num} é IMPAR'}
 ```
+#### Testando emojis:
+Hello, World! :vulcan_salute: :earth_americas:
+
+[Acesse o link](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)

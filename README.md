@@ -54,4 +54,11 @@ else:
 #### Testando emojis:
 Hello, World! :vulcan_salute: :earth_americas:
 
-[Acesse o link](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+@ikatyang [Acesse o perfil da ikatyang no GitHub!](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+[Acesso o emojipedia:](https://emojipedia.org/)
+
+:wink:
+
+
+

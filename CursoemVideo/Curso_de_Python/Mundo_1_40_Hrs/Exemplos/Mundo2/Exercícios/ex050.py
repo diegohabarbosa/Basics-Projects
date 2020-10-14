@@ -1,4 +1,9 @@
 #050 - Soma dos pares
-n = int(input('Digite um número: '))
-for c in range(n,6):
-    print(c)
+s = 0
+for c in range(0,6):
+    n = int(input('Digite um número: '))
+    if (n%2) == 0:
+        s += n
+    else:
+        0
+print(s)

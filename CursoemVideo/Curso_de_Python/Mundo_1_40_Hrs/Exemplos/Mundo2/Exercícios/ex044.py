@@ -3,10 +3,10 @@ from time import sleep
 valor = float(input('Digite o valor do produto R$'))
 print(' '*20)
 print('Digite o digito da condição de pagamento sendo:')
-print('1 - dinheiro / cheque')
-print('2 - à vista no cartão')
-print('3 - em até 2x no cartão de crédito')
-print('4 - 3x ou mais no cartão de crédito')
+print('[1] - dinheiro / cheque')
+print('[2] - à vista no cartão')
+print('[3] - em até 2x no cartão de crédito')
+print('[4] - 3x ou mais no cartão de crédito')
 print(' '*20)
 sleep(5)
 condicao = int(input('Escolha a condição de pagamento (1 à 4): '))
@@ -19,4 +19,4 @@ elif condicao == 3:
 elif condicao == 4:
     print('Será aplicado um juros de 20% nesta compra no valor total de R${:.2f}'.format(valor*1.2))
 else:
-    print('Opção invalida')
+    print('Opção invalida. Tente novamente!')

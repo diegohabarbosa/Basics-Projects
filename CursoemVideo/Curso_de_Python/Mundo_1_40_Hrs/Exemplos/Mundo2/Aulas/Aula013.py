@@ -1,0 +1,4 @@
+# Estrutura de repetições for
+for c in range(1,6)
+    print('oi')
+print('FIM')

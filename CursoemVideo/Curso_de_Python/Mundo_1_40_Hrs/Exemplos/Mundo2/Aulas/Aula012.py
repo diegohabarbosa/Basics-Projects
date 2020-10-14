@@ -1,6 +1,6 @@
 #Condições Aninhadas
 nome = str(input('Qual é o seu nome? '))
-if nome == 'Diego' :
+if nome == 'Diego':
     print('Que nome bonito!')
 elif nome == 'Pedro' or nome == 'João' or nome ==  'Maria' or nome == 'Ana':
     print('Sue nome é bem popular no Brasil.')

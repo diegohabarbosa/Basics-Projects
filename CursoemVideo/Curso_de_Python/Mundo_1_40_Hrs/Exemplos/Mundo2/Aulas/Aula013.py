@@ -1,4 +1,7 @@
 # Estrutura de repetições for
-for c in range(1,6)
-    print('oi')
-print('FIM')
+i = int(input('Digite o número inicial: '))
+f = int(input('Digite o número final: '))
+p = int(input('Digite o passo: '))
+for c in range(i, f, p):
+    print(c)
+print(f)

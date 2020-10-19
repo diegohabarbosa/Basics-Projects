@@ -1,8 +1,6 @@
 #064 - Tratando vários valores v1.0
-b = 0
-c = 0
-s = 0
-print('Digite os números inteiros, caso queira encerrar digite 999')
+b = c = s = 0
+print('Digite os números inteiros, caso queira encerrar digite [999]!')
 while s != 999:
     s = int(input('Digite um número inteiro: '))
     b += s 

@@ -1,24 +1,32 @@
 #068 - Jogo do Par ou Ímpar
 from random import randint
-r = p = j = s = pi = v = g = 0
+v = 0
 print('=-'*20)
 print('VAMOS JOGAR PAR OU ÍMPAR')
-while r == pi:
-    c = randint(0,10)
+while True:
+    maquina = randint(0,10)
     print('=-'*20)
-    j = int(input('Diga um valor: '))
-    pi = str(input('Par ou Ímpar? [P/I]')).strip().upper()[0]
-    s = c+j  
-    if s%2 == 0:
-        r = 'P'
-    else:
-        r = 'I'
-    if r == pi:
-        v += 1
-        print('Você VENCEU!')
-        print('Vamos jogar novamente...')
-    if r != pi:        
-        print(f'Você jogou {j} e o computador {c}. Total de {s} DEU {r}')
-        print('Você perdeu!')
-        break
+    jogador = int(input('Diga um valor: '))
+    total = jogador + maquina   
+    tipo = ' '
+    while tipo not in 'PpIi':
+        tipo = str(input('Par ou Ímpar? [P/I]')).strip().upper()[0]
+    print(f'Você jogou {jogador} e o computador {maquina}. Total de {total}', end=' ')
+    print('DEU PAR!' if total % 2 == 0 else 'DEU ÍMPAR!')
+    if tipo == 'P':
+        if total % 2 == 0:
+            print('Você VENCEU!')
+            print('Vamos jogar novamente...')
+            v += 1
+        else:
+            print('Você PERDEU!')
+            break
+    elif tipo == 'I':
+        if total % 2 == 1:
+            print('Você VENCEU!')
+            print('Vamos jogar novamente...')
+            v += 1
+        else:
+            print('Você PERDEU!')
+            break
 print(f'GAME OVER! Você Venceu {v} vezes.')

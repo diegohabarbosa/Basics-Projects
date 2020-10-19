@@ -9,5 +9,5 @@ while n >= 0:
         break
     for c in range(1,11):
         t = n*c
-        print('{} x {} = {}'.format(n,c,t))
+        print(f'{n} x {c} = {t}')
 print('PROGRAMA TABUADA ENCERRADO. Volte sempre!')
